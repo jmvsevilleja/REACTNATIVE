@@ -2,6 +2,7 @@ import {StatusBar} from 'expo-status-bar';
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import FlexScreen from './screens/FlexScreen';
+import IconsScreen from './screens/IconsScreen';
 import NavStackScreen from './screens/NavStackScreen';
 
 export default function App() {
@@ -12,7 +13,8 @@ export default function App() {
     //   <StatusBar style="auto" />
     // </View>
     // <FlexScreen />
-    <NavStackScreen />
+    // <NavStackScreen />
+    <IconsScreen />
   );
 }
 
