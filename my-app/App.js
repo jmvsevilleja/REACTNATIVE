@@ -1,6 +1,7 @@
 import {StatusBar} from 'expo-status-bar';
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
+import TodoList from './components/TodoList';
 import FlexScreen from './screens/FlexScreen';
 import IconsScreen from './screens/IconsScreen';
 import NavStackScreen from './screens/NavStackScreen';
@@ -14,7 +15,8 @@ export default function App() {
     // </View>
     // <FlexScreen />
     // <NavStackScreen />
-    <IconsScreen />
+    // <IconsScreen />
+    <TodoList />
   );
 }
 
