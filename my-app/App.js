@@ -4,6 +4,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import TodoList from './components/TodoList';
 import FlexScreen from './screens/FlexScreen';
 import IconsScreen from './screens/IconsScreen';
+import NavDrawerScreen from './screens/NavDrawerScreen';
 import NavStackScreen from './screens/NavStackScreen';
 
 export default function App() {
@@ -16,7 +17,7 @@ export default function App() {
     // <FlexScreen />
     // <NavStackScreen />
     // <IconsScreen />
-    <TodoList />
+    <NavDrawerScreen />
   );
 }
 
